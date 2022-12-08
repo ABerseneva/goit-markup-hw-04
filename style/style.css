@@ -110,6 +110,8 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .header-link:hover, 
 .header-link:focus {
@@ -147,7 +149,7 @@ img{
     padding: 200px 0;
     margin: auto;
     background: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: 50%;
     max-width: 1600px;
     min-height: 600px;
